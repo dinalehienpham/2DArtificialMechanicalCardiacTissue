@@ -11,7 +11,7 @@ The contraction and relaxation of the cardiac cells occurs via excitation-contra
 Using the action potential, we can simulate the electrophysiology of each individual cardiac cell, and therefore the mechanical contraction and relaxation of our artificial-mechanical cardiac cell. Contraction and relaxation of cardiac tissue involves the spreading, or propagation, of this action potential from one cardiac cell to another. This is simulated by the Echebarria-Karma model as a proof of concept.
 
 <img src="https://github.com/dinalehienpham/2DArtificialMechanicalCardiacTissue/blob/main/images/actionpotentialpropagation.gif">
-(above) Visualization of the propagation of 4 cells.
+(above) Visualization of the action potential propagation with 4 cells.
 
 ## 2-D Artificial-Mechanical Cardiac Tissue
 The 2-D artificial-mechanical cardiac tissue utilized linear servo motors and 3-D printed materials. A Raspberry Pi microcontroller was used to run an altered Echebarria-Karma model to simulate the 2-D action potential propagation, starting from a cell in the upper left corner of the tissue.
