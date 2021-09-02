@@ -26,7 +26,7 @@ The 2-D artificial-mechanical cardiac tissue utilized linear servo motors and 3-
 
 ## Authors
 ### 2-D Artificial Cardiac Muscle
-* Dina Pham
-* Dr. Daisuke Sato
+* Dina Pham (dlpham@ucdavis.edu)
+* Dr. Daisuke Sato (dsato@ucdavis.edu)
 
 2020 @ Sato Lab - UC Davis School of Medicine/Department of Pharmacology
