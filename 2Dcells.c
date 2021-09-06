@@ -3,7 +3,7 @@
 #include <wiringPi.h>
 #include <math.h>
 #include <time.h>
-#include "gperftools/profiler.h"
+//#include "gperftools/profiler.h"
 #include "pca9685.h"
 
 // different modes
