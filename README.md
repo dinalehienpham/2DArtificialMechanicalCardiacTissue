@@ -1,4 +1,4 @@
-# 2D Artificial-Mechanical Cardiac Tissue
+# 2-D Artificial-Mechanical Cardiac Tissue
 In Sato Lab, we are researching how to create more realistic machines. One aspect is designing novel actuators that can be used in machines or mechanical systems to reflect more life-like motion and also applying these systems to biomedical applications. In this project we created an artificial-mechanical cardiac tissue using this concept.
 
 ## Background
@@ -24,8 +24,29 @@ The 2-D artificial-mechanical cardiac tissue utilized linear servo motors and 3-
 
 <img src="https://github.com/dinalehienpham/2DArtificialMechanicalCardiacTissue/blob/main/images/6x6cells.gif">
 
+## Materials
+* Raspberry Pi 3B or newer
+* GS-1502 linear micro servo motors
+* Stereolithography (SLA) 3-D printed parts
+* PCA9685 I2C boards (see [overview](https://learn.adafruit.com/adafruit-16-channel-servo-driver-with-raspberry-pi/overview) and [chaining](https://learn.adafruit.com/16-channel-pwm-servo-driver/chaining-drivers))
+* jumper wires
+
+## Usage
+This project was developed on the Raspberry Pi 3B and 4. THere are a few Raspberry Pi dependent libraries that must be installed before compiling: 
+* [wiringPi](http://wiringpi.com/)
+* [pca9685](https://github.com/Reinbert/pca9685)
+
+To compile the code on the Raspberry Pi, use:
+
+`gcc -Wall -g -o 2Dcells 2Dcells.c -lm -lwiringPi -fopenmp -lpthread`
+
+Then run using 
+
+`sudo ./2Dcells`
+
+The membrane voltage numbers will also be printed to screen.
+
 ## Authors
-### 2-D Artificial Cardiac Muscle
 * Dina Pham (dlpham@ucdavis.edu)
 * Dr. Daisuke Sato (dsato@ucdavis.edu)
 
